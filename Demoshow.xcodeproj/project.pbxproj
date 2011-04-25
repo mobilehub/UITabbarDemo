@@ -1,0 +1,408 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		074352391365331300DBECCF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 074352381365331300DBECCF /* UIKit.framework */; };
+		0743523B1365331300DBECCF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0743523A1365331300DBECCF /* Foundation.framework */; };
+		0743523D1365331300DBECCF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0743523C1365331300DBECCF /* CoreGraphics.framework */; };
+		074352431365331300DBECCF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 074352411365331300DBECCF /* InfoPlist.strings */; };
+		074352461365331300DBECCF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 074352451365331300DBECCF /* main.m */; };
+		074352491365331300DBECCF /* DemoshowAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 074352481365331300DBECCF /* DemoshowAppDelegate.m */; };
+		0743524C1365331300DBECCF /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0743524A1365331300DBECCF /* MainWindow.xib */; };
+		0743524F1365331300DBECCF /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0743524E1365331300DBECCF /* FirstViewController.m */; };
+		074352521365331300DBECCF /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 074352511365331300DBECCF /* SecondViewController.m */; };
+		074352551365331300DBECCF /* FirstView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 074352531365331300DBECCF /* FirstView.xib */; };
+		074352581365331300DBECCF /* SecondView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 074352561365331300DBECCF /* SecondView.xib */; };
+		074352611365333E00DBECCF /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0743525F1365333E00DBECCF /* ThirdViewController.m */; };
+		074352621365333E00DBECCF /* ThirdViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 074352601365333E00DBECCF /* ThirdViewController.xib */; };
+		074352661365335A00DBECCF /* FourthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 074352641365335A00DBECCF /* FourthViewController.m */; };
+		074352671365335A00DBECCF /* FourthViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 074352651365335A00DBECCF /* FourthViewController.xib */; };
+		07435301136556CF00DBECCF /* LoginView.m in Sources */ = {isa = PBXBuildFile; fileRef = 074352FF136556CF00DBECCF /* LoginView.m */; };
+		07435302136556CF00DBECCF /* LoginView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 07435300136556CF00DBECCF /* LoginView.xib */; };
+		07435311136559CF00DBECCF /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0743530F136559CF00DBECCF /* DetailViewController.m */; };
+		07435312136559CF00DBECCF /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 07435310136559CF00DBECCF /* DetailViewController.xib */; };
+		0743531713657BCD00DBECCF /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0743531513657BCD00DBECCF /* TestViewController.m */; };
+		0743531813657BCD00DBECCF /* TestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0743531613657BCD00DBECCF /* TestViewController.xib */; };
+		0743534D1365A66B00DBECCF /* Artwork.png in Resources */ = {isa = PBXBuildFile; fileRef = 074353491365A66B00DBECCF /* Artwork.png */; };
+		0743534E1365A66B00DBECCF /* Emoji.png in Resources */ = {isa = PBXBuildFile; fileRef = 0743534A1365A66B00DBECCF /* Emoji.png */; };
+		0743534F1365A66B00DBECCF /* GlossyButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 0743534B1365A66B00DBECCF /* GlossyButton.png */; };
+		074353501365A66B00DBECCF /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 0743534C1365A66B00DBECCF /* Icon.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		074352341365331200DBECCF /* Demoshow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demoshow.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		074352381365331300DBECCF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0743523A1365331300DBECCF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0743523C1365331300DBECCF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		074352401365331300DBECCF /* Demoshow-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Demoshow-Info.plist"; sourceTree = "<group>"; };
+		074352421365331300DBECCF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		074352441365331300DBECCF /* Demoshow-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Demoshow-Prefix.pch"; sourceTree = "<group>"; };
+		074352451365331300DBECCF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		074352471365331300DBECCF /* DemoshowAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DemoshowAppDelegate.h; sourceTree = "<group>"; };
+		074352481365331300DBECCF /* DemoshowAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoshowAppDelegate.m; sourceTree = "<group>"; };
+		0743524B1365331300DBECCF /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		0743524D1365331300DBECCF /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		0743524E1365331300DBECCF /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		074352501365331300DBECCF /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		074352511365331300DBECCF /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		074352541365331300DBECCF /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FirstView.xib; sourceTree = "<group>"; };
+		074352571365331300DBECCF /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SecondView.xib; sourceTree = "<group>"; };
+		0743525E1365333E00DBECCF /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		0743525F1365333E00DBECCF /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
+		074352601365333E00DBECCF /* ThirdViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ThirdViewController.xib; sourceTree = "<group>"; };
+		074352631365335A00DBECCF /* FourthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FourthViewController.h; sourceTree = "<group>"; };
+		074352641365335A00DBECCF /* FourthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FourthViewController.m; sourceTree = "<group>"; };
+		074352651365335A00DBECCF /* FourthViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FourthViewController.xib; sourceTree = "<group>"; };
+		074352FE136556CF00DBECCF /* LoginView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginView.h; sourceTree = "<group>"; };
+		074352FF136556CF00DBECCF /* LoginView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginView.m; sourceTree = "<group>"; };
+		07435300136556CF00DBECCF /* LoginView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginView.xib; sourceTree = "<group>"; };
+		0743530E136559CF00DBECCF /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		0743530F136559CF00DBECCF /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		07435310136559CF00DBECCF /* DetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailViewController.xib; sourceTree = "<group>"; };
+		0743531413657BCD00DBECCF /* TestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		0743531513657BCD00DBECCF /* TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
+		0743531613657BCD00DBECCF /* TestViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TestViewController.xib; sourceTree = "<group>"; };
+		074353491365A66B00DBECCF /* Artwork.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Artwork.png; path = image/Artwork.png; sourceTree = "<group>"; };
+		0743534A1365A66B00DBECCF /* Emoji.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Emoji.png; path = image/Emoji.png; sourceTree = "<group>"; };
+		0743534B1365A66B00DBECCF /* GlossyButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = GlossyButton.png; path = image/GlossyButton.png; sourceTree = "<group>"; };
+		0743534C1365A66B00DBECCF /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Icon.png; path = image/Icon.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		074352311365331200DBECCF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				074352391365331300DBECCF /* UIKit.framework in Frameworks */,
+				0743523B1365331300DBECCF /* Foundation.framework in Frameworks */,
+				0743523D1365331300DBECCF /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		074352291365331200DBECCF = {
+			isa = PBXGroup;
+			children = (
+				0743523E1365331300DBECCF /* Demoshow */,
+				074352371365331300DBECCF /* Frameworks */,
+				074352351365331200DBECCF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		074352351365331200DBECCF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				074352341365331200DBECCF /* Demoshow.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		074352371365331300DBECCF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				074352381365331300DBECCF /* UIKit.framework */,
+				0743523A1365331300DBECCF /* Foundation.framework */,
+				0743523C1365331300DBECCF /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0743523E1365331300DBECCF /* Demoshow */ = {
+			isa = PBXGroup;
+			children = (
+				074353471365A65500DBECCF /* resource */,
+				07435303136556D400DBECCF /* mainview */,
+				074352FC136556B500DBECCF /* login */,
+				074352471365331300DBECCF /* DemoshowAppDelegate.h */,
+				074352481365331300DBECCF /* DemoshowAppDelegate.m */,
+				0743524A1365331300DBECCF /* MainWindow.xib */,
+				0743523F1365331300DBECCF /* Supporting Files */,
+			);
+			path = Demoshow;
+			sourceTree = "<group>";
+		};
+		0743523F1365331300DBECCF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				074352401365331300DBECCF /* Demoshow-Info.plist */,
+				074352411365331300DBECCF /* InfoPlist.strings */,
+				074352441365331300DBECCF /* Demoshow-Prefix.pch */,
+				074352451365331300DBECCF /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		074352FC136556B500DBECCF /* login */ = {
+			isa = PBXGroup;
+			children = (
+				074352FE136556CF00DBECCF /* LoginView.h */,
+				074352FF136556CF00DBECCF /* LoginView.m */,
+				07435300136556CF00DBECCF /* LoginView.xib */,
+			);
+			name = login;
+			sourceTree = "<group>";
+		};
+		07435303136556D400DBECCF /* mainview */ = {
+			isa = PBXGroup;
+			children = (
+				0743531313657B9D00DBECCF /* test */,
+				0743530D136559B100DBECCF /* pay */,
+				074352631365335A00DBECCF /* FourthViewController.h */,
+				074352641365335A00DBECCF /* FourthViewController.m */,
+				074352651365335A00DBECCF /* FourthViewController.xib */,
+				0743525E1365333E00DBECCF /* ThirdViewController.h */,
+				0743525F1365333E00DBECCF /* ThirdViewController.m */,
+				074352601365333E00DBECCF /* ThirdViewController.xib */,
+				074352501365331300DBECCF /* SecondViewController.h */,
+				074352511365331300DBECCF /* SecondViewController.m */,
+				074352561365331300DBECCF /* SecondView.xib */,
+			);
+			name = mainview;
+			sourceTree = "<group>";
+		};
+		0743530D136559B100DBECCF /* pay */ = {
+			isa = PBXGroup;
+			children = (
+				0743524D1365331300DBECCF /* FirstViewController.h */,
+				0743524E1365331300DBECCF /* FirstViewController.m */,
+				074352531365331300DBECCF /* FirstView.xib */,
+				0743530E136559CF00DBECCF /* DetailViewController.h */,
+				0743530F136559CF00DBECCF /* DetailViewController.m */,
+				07435310136559CF00DBECCF /* DetailViewController.xib */,
+			);
+			name = pay;
+			sourceTree = "<group>";
+		};
+		0743531313657B9D00DBECCF /* test */ = {
+			isa = PBXGroup;
+			children = (
+				0743531413657BCD00DBECCF /* TestViewController.h */,
+				0743531513657BCD00DBECCF /* TestViewController.m */,
+				0743531613657BCD00DBECCF /* TestViewController.xib */,
+			);
+			name = test;
+			sourceTree = "<group>";
+		};
+		074353471365A65500DBECCF /* resource */ = {
+			isa = PBXGroup;
+			children = (
+				074353491365A66B00DBECCF /* Artwork.png */,
+				0743534A1365A66B00DBECCF /* Emoji.png */,
+				0743534B1365A66B00DBECCF /* GlossyButton.png */,
+				0743534C1365A66B00DBECCF /* Icon.png */,
+			);
+			name = resource;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		074352331365331200DBECCF /* Demoshow */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0743525B1365331300DBECCF /* Build configuration list for PBXNativeTarget "Demoshow" */;
+			buildPhases = (
+				074352301365331200DBECCF /* Sources */,
+				074352311365331200DBECCF /* Frameworks */,
+				074352321365331200DBECCF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Demoshow;
+			productName = Demoshow;
+			productReference = 074352341365331200DBECCF /* Demoshow.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0743522B1365331200DBECCF /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 0743522E1365331200DBECCF /* Build configuration list for PBXProject "Demoshow" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 074352291365331200DBECCF;
+			productRefGroup = 074352351365331200DBECCF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				074352331365331200DBECCF /* Demoshow */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		074352321365331200DBECCF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				074352431365331300DBECCF /* InfoPlist.strings in Resources */,
+				0743524C1365331300DBECCF /* MainWindow.xib in Resources */,
+				074352551365331300DBECCF /* FirstView.xib in Resources */,
+				074352581365331300DBECCF /* SecondView.xib in Resources */,
+				074352621365333E00DBECCF /* ThirdViewController.xib in Resources */,
+				074352671365335A00DBECCF /* FourthViewController.xib in Resources */,
+				07435302136556CF00DBECCF /* LoginView.xib in Resources */,
+				07435312136559CF00DBECCF /* DetailViewController.xib in Resources */,
+				0743531813657BCD00DBECCF /* TestViewController.xib in Resources */,
+				0743534D1365A66B00DBECCF /* Artwork.png in Resources */,
+				0743534E1365A66B00DBECCF /* Emoji.png in Resources */,
+				0743534F1365A66B00DBECCF /* GlossyButton.png in Resources */,
+				074353501365A66B00DBECCF /* Icon.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		074352301365331200DBECCF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				074352461365331300DBECCF /* main.m in Sources */,
+				074352491365331300DBECCF /* DemoshowAppDelegate.m in Sources */,
+				0743524F1365331300DBECCF /* FirstViewController.m in Sources */,
+				074352521365331300DBECCF /* SecondViewController.m in Sources */,
+				074352611365333E00DBECCF /* ThirdViewController.m in Sources */,
+				074352661365335A00DBECCF /* FourthViewController.m in Sources */,
+				07435301136556CF00DBECCF /* LoginView.m in Sources */,
+				07435311136559CF00DBECCF /* DetailViewController.m in Sources */,
+				0743531713657BCD00DBECCF /* TestViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		074352411365331300DBECCF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				074352421365331300DBECCF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		0743524A1365331300DBECCF /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0743524B1365331300DBECCF /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		074352531365331300DBECCF /* FirstView.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				074352541365331300DBECCF /* en */,
+			);
+			name = FirstView.xib;
+			sourceTree = "<group>";
+		};
+		074352561365331300DBECCF /* SecondView.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				074352571365331300DBECCF /* en */,
+			);
+			name = SecondView.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		074352591365331300DBECCF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0743525A1365331300DBECCF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		0743525C1365331300DBECCF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Demoshow/Demoshow-Prefix.pch";
+				INFOPLIST_FILE = "Demoshow/Demoshow-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0743525D1365331300DBECCF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Demoshow/Demoshow-Prefix.pch";
+				INFOPLIST_FILE = "Demoshow/Demoshow-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0743522E1365331200DBECCF /* Build configuration list for PBXProject "Demoshow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				074352591365331300DBECCF /* Debug */,
+				0743525A1365331300DBECCF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0743525B1365331300DBECCF /* Build configuration list for PBXNativeTarget "Demoshow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0743525C1365331300DBECCF /* Debug */,
+				0743525D1365331300DBECCF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0743522B1365331200DBECCF /* Project object */;
+}
